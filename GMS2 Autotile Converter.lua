@@ -1,7 +1,7 @@
 local spr = app.activeSprite -- Get the currently opened sprite.
 
 -- If there is no sprite, then cancel the script.
-if not spr theng
+if not spr then
   app.alert("There is no sprite to export.")
   return
 end
